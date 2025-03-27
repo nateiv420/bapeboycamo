@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	width: 100%; height: 60px
+}
+.banner {
+	width: 100%; min-height: 500px; background-color: #D7D7D7 
+}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+
+#slide .owl-dots .owl-dot span {
+
+      width: 12px;
+
+      height: 12px; 	
+
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+
+#slide .owl-nav [class*='owl-'] {
+
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #000000
+
+}
+
+
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+
+#slide .owl-nav [class*='owl-']:hover {
+
+      background:none;border: none;
+
+      color: red;
+
+      text-decoration: none;
+}
+
+main{
+	width: 100%; min-height: 500px
+}
+.gach-chan{
+	border-bottom: 2px solid white
+}
+.vien{
+	width: 100%; min-height: 300px; border: 1px solid; padding: 10px; position: relative; overflow: hidden
+}
+.icon{ 
+	width: 80%; height: 40px; position: absolute; left: 10%; top: -12%; display: flex; justify-content: space-around; transition: all 1s
+}
+.icon a{
+	height: 40px; width: 40px; background-color: darkolivegreen; color: white; border-radius: 50%; display: flex; justify-content: center; align-items: center; text-decoration: none
+}
+.icon a:hover{
+	background-color: white; color: darkolivegreen; border: 1px solid darkred 
+}
+.vien:hover .icon{
+	top: 45%
+}
+#feature{
+	width: 100%; height: 500px ; background:url("../images/bbmlFX.jpg"); background-repeat: no-repeat; background-size: cover; background-position: bottom center
+}
+.text-dam{
+	color: darkred
+}
+.vien-trang{
+	width: 100%; min-height: 100px; border: 1px solid white; text-align: center; padding: 15px 
+}
+.vien-trang a{
+	text-decoration: none; color: darkred; cursor: pointer
+}
+.vien-trang a:hover{
+	color: white
+}
+#contact{
+	width: 100%;min-height: 500px;background: url("../images/BABIMILO.webp");background-repeat: no-repeat;background-size: cover;background-position: center center
+}
+.shadow{
+	width: 100%;min-height: 300px;border: 1px solid #BDBDBD;box-shadow: 5px 5px 7px gray;padding: 40px
+}
+.form-control{
+	padding: 8px;margin-bottom: 10px;width: 100%
+}
+
+footer{
+	width: 100; min-height: 200px; background-color: #D4D4D4
+}
+footer .logo a{
+    text-decoration: none; font-size: 20px; font-weight: bold; color: #454545
+}
+footer .logo a:hover{
+	color: darkgreen
+}
+footer a{
+	color: #363636
+}
+footer a{
+	color: #363636
+}
+.bg-xanh{
+	min-height: 200px; background-color: darkgray
+}
+footer ul{
+	margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column
+}
+footer uil li {
+	display: block; padding: 10px; text-decoration: none; font-weight: 600; color: #666666
+}
+footer ul li a:hover {
+	color: darkgreen
+}
